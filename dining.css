@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+
+.page4 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.575), rgba(0, 0, 0, 0.575)), url(./restaurantmain.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100px;
+}
+nav .logo {
+    margin-top: 20px;
+    padding: 2px 30px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    float: right;
+    list-style: none;
+    display: flex;
+    margin-top: 30px;
+}
+
+nav li {
+    margin-right: 10px;
+    position: relative;
+}
+
+nav li ul {
+    position: absolute;
+    top: 90%;
+    left: 0;
+    background-color: #080808af;
+    padding: 10px;
+    display: none;
+    margin-top: 5px;
+}
+
+nav li:hover ul {
+    display: block;
+}
+
+nav li a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav li ul li {
+    margin: 0px 0;
+}
+
+nav li ul li a {
+    color: rgb(224, 224, 224);
+}
+
+.column {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.column{
+    text-align:center
+}  
+
+.content {
+    text-align: center;
+}
+.content p {
+    font-size: 15px;
+    color: #fff;
+}
+
+.content {
+
+    color: #fff;
+    align-content: center;
+    padding-top: 100px;
+}
+
+.container{
+    text-align: center;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    height: 55px;
+    width: 100px;
+    border: 1px solid rgb(17, 17, 17);
+    background-color: #b9a858;
+    border-radius: 10px;
+    
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    
+}
+
+/* footer styles*/
+footer {
+    background-color:#b9a858;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footernav{
+    margin: 30px 0;
+}
+
+.footernav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.footernav ul li a{
+    color: whitesmoke;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5;
+
+}
+
+.footernav ul li a:hover{
+    opacity: 1;
+}
+
